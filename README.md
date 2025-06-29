@@ -6,7 +6,7 @@ This is a **responsive and interactive portfolio website** built with **HTML, Ta
 
 ## 🌐 Live Demo
 
-👉 [Click here to visit the live website](https://your-portfolio-link.com)
+👉 [Click here to visit the live website](https://maniishh.github.io/PORTFOLIO/)
 
 ---
 
