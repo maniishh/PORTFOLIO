@@ -11,10 +11,32 @@ This is a **responsive and interactive portfolio website** built with **HTML, Ta
 ---
 
 ## 📁 Project Structure
-
+```
+portfolio/
+├── assets/
+│ ├── jnv.png
+│ ├── logo.png
+│ ├── nit.png
+│ ├── postnet.png
+│ ├── reserve.png
+│ ├── resume.pdf
+│ ├── sjp.png
+│ └── trend.png
+├── css/
+│ └── [your-styles.css]
+└── index.html
 
 ---
 
+```
+🛠️ Tech Stack
+```
+HTML5
+
+Tailwind CSS
+
+JavaScript
+```
 ## ✨ Features
 
 - 🌀 Animated gradient background with smooth transitions
