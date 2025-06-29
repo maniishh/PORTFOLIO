@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #fff;
+  color: #111;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark {
+  background: #111;
+  color: #f1f1f1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: inherit;
+  z-index: 999;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  align-items: center;
+}
+
+.section {
+  padding: 6rem 2rem 3rem;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.hero {
+  margin-top: 6rem;
+}
+
+.highlight {
+  color: royalblue;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.card {
+  background: #f0f0f0;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: royalblue;
+}
+
+body.dark .card {
+  background: #1a1a1a;
+}
+
+.skills span {
+  display: inline-block;
+  margin: 0.4rem;
+  padding: 0.4rem 0.8rem;
+  background: royalblue;
+  color: white;
+  border-radius: 15px;
+}
+
+.timeline > div {
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+input, textarea {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button.btn {
+  background: royalblue;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+}

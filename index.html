@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manish | Portfolio</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+   
+
+  <style>
+    @keyframes gradient {
+      0%, 100% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+    }
+ 
+  </style>
+</head>
+<body class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white transition-colors duration-300">
+ 
+ 
+
+<nav class="px-6 py-4 shadow-md fixed top-0 w-full z-50 bg-white text-gray-900">
+  <div class="max-w-7xl mx-auto flex items-center justify-between">
+    <a href="#about" class="flex items-center gap-2">
+      <img src="assets/logo.png" alt="Logo" class="h-10 w-10 object-contain" />
+      
+    </a>
+    <button id="menu-toggle" class="md:hidden text-gray-700 focus:outline-none">
+      <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
+      </svg>
+    </button>
+    <ul class="hidden md:flex gap-4 items-center text-sm font-medium">
+      <li><a href="#about" class="hover:text-blue-600">About</a></li>
+      <li><a href="#projects" class="hover:text-blue-600">Projects</a></li>
+      <li><a href="#skills" class="hover:text-blue-600">Skills</a></li>
+      <li><a href="#education" class="hover:text-blue-600">Education</a></li>
+      <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+      <li>
+  <a href="assets/resume.pdf" download class="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-3 py-1 rounded hover:opacity-90 transition">Download Resume</a>
+</li>
+
+    </ul>
+  </div>
+  <ul id="mobile-menu" class="md:hidden flex-col gap-4 px-6 py-4 text-sm font-medium bg-white shadow-md absolute top-full left-0 w-full transform transition-transform duration-300 -translate-y-full opacity-0 pointer-events-none">
+    <li><a href="#about" class="block py-2 hover:text-blue-600 mobile-link">About</a></li>
+    <li><a href="#projects" class="block py-2 hover:text-blue-600 mobile-link">Projects</a></li>
+    <li><a href="#skills" class="block py-2 hover:text-blue-600 mobile-link">Skills</a></li>
+    <li><a href="#education" class="block py-2 hover:text-blue-600 mobile-link">Education</a></li>
+    <li><a href="#contact" class="block py-2 hover:text-blue-600 mobile-link">Contact</a></li>
+<li>
+  <a href="assets/resume.pdf" download class="block py-2 text-white bg-gradient-to-r from-blue-600 to-purple-600 text-center rounded">Download Resume</a>
+</li>
+
+
+  </ul>
+</nav>
+
+ 
+<section id="about" class="py-32 px-4 bg-white" data-aos="fade-up">
+  <div class="max-w-4xl mx-auto bg-white shadow-md rounded-2xl p-10 text-center">
+    <h2 class="text-4xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600">
+      Hello, I'm <span class="font-extrabold">Manish</span>
+    </h2>
+    <p class="text-lg mb-2 text-gray-800">B.Tech student at NIT Jamshedpur | MERN Stack & PHP Developer</p>
+    <p class="text-base mb-6 text-gray-600">Passionate about web development and full-stack projects.</p>
+    <a href="https://leetcode.com/u/__manish/" target="_blank" class="inline-block bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white py-2 px-4 rounded hover:opacity-90 transition">My LeetCode</a>
+  </div>
+</section>
+
+<section id="projects" class="py-24 px-4 bg-[#f9f9fb]" data-aos="fade-up">
+  <div class="max-w-6xl mx-auto text-center">
+    <h3 class="text-3xl font-bold mb-12 text-gray-900">Projects</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      
+      <!-- Card 1 -->
+      <div class="bg-white rounded-2xl shadow-md hover:shadow-xl transition-transform transform hover:-translate-y-1 p-6">
+        <img src="assets/trend.png" alt="TrendEdge" class="rounded-xl mb-4 w-full h-48 object-cover">
+        <h4 class="text-xl font-semibold mb-2 text-gray-900">📈 TrendEdge</h4>
+        <p class="text-sm mb-3 text-gray-700">MERN app analyzing stocks with 20-DMA strategy.</p>
+        <a href="https://github.com/maniishh/trendedge" target="_blank" class="text-blue-600 hover:underline">GitHub →</a>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white rounded-2xl shadow-md hover:shadow-xl transition-transform transform hover:-translate-y-1 p-6">
+        <img src="assets/postnet.png" alt="PostNet" class="rounded-xl mb-4 w-full h-48 object-cover">
+        <h4 class="text-xl font-semibold mb-2 text-gray-900">📝 PostNet</h4>
+        <p class="text-sm mb-3 text-gray-700">Simple blog app using Node.js, Express, and EJS.</p>
+        <a href="https://github.com/maniishh/blog_app" target="_blank" class="text-blue-600 hover:underline">GitHub →</a>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white rounded-2xl shadow-md hover:shadow-xl transition-transform transform hover:-translate-y-1 p-6">
+        <img src="assets/reserve.png" alt="ReserveSpot" class="rounded-xl mb-4 w-full h-48 object-cover">
+        <h4 class="text-xl font-semibold mb-2 text-gray-900">📚 ReserveSpot</h4>
+        <p class="text-sm mb-3 text-gray-700">Library seat booking system with PHP & MySQL.</p>
+        <a href="https://github.com/maniishh/digital_library_portal" target="_blank" class="text-blue-600 hover:underline">GitHub →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="py-24 px-4 bg-gradient-to-br from-white via-purple-50 to-blue-50" data-aos="zoom-in">
+  <div class="max-w-5xl mx-auto text-center shadow-md rounded-2xl p-10">
+    <h3 class="text-3xl font-bold mb-10 text-gray-900">Skills</h3>
+    <div class="flex flex-wrap justify-center gap-3 text-sm">
+      <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full shadow">HTML</span>
+      <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full shadow">CSS</span>
+      <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full shadow">JavaScript</span>
+      <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full shadow">PHP</span>
+      <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full shadow">React</span>
+      <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full shadow">Node.js</span>
+      <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full shadow">MongoDB</span>
+      <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full shadow">MySQL</span>
+      <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full shadow">Tailwind CSS</span>
+    </div>
+  </div>
+</section>
+
+ 
+<section id="education" class="py-24 px-4 bg-gradient-to-br from-white via-pink-50 to-purple-50" data-aos="fade-right">
+  <div class="max-w-6xl mx-auto text-center">
+    <h3 class="text-3xl font-bold mb-14 text-gray-900">Education</h3>
+
+    <!-- Card Container -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      
+      <!-- Card 1 -->
+      <div class="bg-white rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.12)] p-6 hover:scale-105 transition-transform duration-300">
+      <a href="https://www.nitjsr.ac.in/" > <img src="assets/nit.png" alt="NIT Image" class="w-full h-40 object-cover rounded-xl mb-4"></a>
+        <strong class="text-lg text-gray-900 block mb-2">B.Tech - NIT Jamshedpur</strong>
+        <p class="text-gray-600">2023–2027</p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.12)] p-6 hover:scale-105 transition-transform duration-300">
+        <a href="https://www.nitjsr.ac.in/"><img src="assets/jnv.png" alt="JNV Image" class="w-full h-40 object-cover rounded-xl mb-4"></a>
+        <strong class="text-lg text-gray-900 block mb-2">Matriculation - JNV Basti</strong>
+        <p class="text-gray-600">2016–2021</p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.12)] p-6 hover:scale-105 transition-transform duration-300">
+        <img src="assets/sjp.png" alt="SJP School Image" class="w-full h-40 object-cover rounded-xl mb-4">
+        <strong class="text-lg text-gray-900 block mb-2">Intermediate- SJP International School</strong>
+        <p class="text-gray-600">2021–2023</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+ 
+<section id="contact" class="py-24 px-4 bg-gradient-to-br from-white via-indigo-50 to-pink-100" data-aos="flip-up">
+  <div class="max-w-2xl mx-auto shadow-md rounded-2xl p-10 bg-white">
+    <h3 class="text-3xl font-bold text-center mb-10 text-gray-900">Contact Me</h3>
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-4">
+      <input type="text" name="name" placeholder="Your Name" required class="w-full p-3 rounded border border-gray-300 text-gray-900" />
+      <input type="email" name="email" placeholder="Your Email" required class="w-full p-3 rounded border border-gray-300 text-gray-900" />
+      <textarea name="message" rows="5" placeholder="Your Message" required class="w-full p-3 rounded border border-gray-300 text-gray-900"></textarea>
+      <button type="submit" class="w-full bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 text-white py-3 rounded-lg hover:opacity-90 transition">Send</button>
+    </form>
+  </div>
+</section>
+
+ 
+<!-- Font Awesome CDN (if not already included) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<footer class="text-center py-6 text-sm bg-white text-gray-700">
+  <div class="flex justify-center space-x-6 mb-2 text-lg">
+    
+    <a href="https://github.com/maniishh" target="_blank" class="text-gray-700 hover:text-black transition-colors">
+      <i class="fab fa-github"></i>
+    </a>
+    
+    <a href="https://www.linkedin.com/in/manish-yadav-7b8b5a1b0/" target="_blank" class="text-blue-700 hover:text-blue-900 transition-colors">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    
+    <a href="https://twitter.com/YOUR_TWITTER_ID" target="_blank" class="text-blue-500 hover:text-blue-700 transition-colors">
+      <i class="fab fa-twitter"></i>
+    </a>
+     
+    <a href="https://yourportfolio.com" target="_blank" class="text-green-600 hover:text-green-800 transition-colors">
+      <i class="fas fa-globe"></i>
+    </a>
+  </div>
+  &copy; 2025 Manish Yadav. All rights reserved.
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script>
+  particlesJS("particles-js", {
+    particles: {
+      number: { value: 60, density: { enable: true, value_area: 800 } },
+      color: { value: "#ffffff" },
+      shape: { type: "circle" },
+      opacity: { value: 0.3 },
+      size: { value: 3 },
+      move: { enable: true, speed: 1 }
+    },
+    interactivity: {
+      detect_on: "canvas",
+      events: {
+        onhover: { enable: true, mode: "repulse" },
+        onclick: { enable: true, mode: "push" }
+      },
+      modes: {
+        repulse: { distance: 100 },
+        push: { particles_nb: 4 }
+      }
+    },
+    retina_detect: true
+  });
+</script>
+
+ 
+<script>
+  const menuToggle = document.getElementById("menu-toggle");
+  const mobileMenu = document.getElementById("mobile-menu");
+  const mobileLinks = document.querySelectorAll(".mobile-link");
+
+  menuToggle?.addEventListener("click", () => {
+    mobileMenu.classList.toggle("translate-y-0");
+    mobileMenu.classList.toggle("-translate-y-full");
+    mobileMenu.classList.toggle("opacity-100");
+    mobileMenu.classList.toggle("opacity-0");
+    mobileMenu.classList.toggle("pointer-events-none");
+  });
+
+  mobileLinks.forEach(link => {
+    link.addEventListener("click", () => {
+      mobileMenu.classList.remove("translate-y-0", "opacity-100");
+      mobileMenu.classList.add("-translate-y-full", "opacity-0", "pointer-events-none");
+    });
+  });
+</script>
+<script>
+  window.addEventListener("load", () => {
+    const loader = document.getElementById("loader");
+    if (loader) {
+      loader.style.opacity = "0";
+      loader.style.pointerEvents = "none";
+      setTimeout(() => loader.remove(), 500);
+    }
+  });
+</script>
+
+</body>
+</html>
