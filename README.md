@@ -2,7 +2,7 @@
 
 This is a **responsive and interactive portfolio website** built with **HTML, Tailwind CSS, and JavaScript** to showcase my skills, projects, education, and resume.
 
-![Portfolio Screenshot](assets/home.png)
+![Portfolio Screenshot](assets/hom.png)
 
 ## 🌐 Live Demo
 
