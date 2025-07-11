@@ -54,6 +54,6 @@ JavaScript
 ### 📦 Clone this repo
 
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/maniishh/portfolio.git
 cd portfolio
 
