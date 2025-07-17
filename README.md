@@ -21,6 +21,7 @@ portfolio/
 │ ├── reserve.png
 │ ├── resume.pdf
 │ ├── sjp.png
+| ├── demo.gif
 │ └── trend.png
 ├── css/
 │ └── [your-styles.css]
