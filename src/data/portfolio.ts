@@ -36,18 +36,15 @@ export const skills = [
     category: "Backend & Cloud",
     items: [
       { name: "Node.js / Express", level: 93 },
-      { name: "Docker / Kubernetes", level: 65 },
-      { name: "AWS (EC2, Lambda, S3)", level: 65 },
+      { name: "Docker", level: 65 },
       { name: "PostgreSQL / MongoDB", level: 87 },
       { name: "Redis", level: 70 },
-      { name: "GraphQL", level: 75 },
     ],
   },
   {
     category: "Tools & Practices",
     items: [
       { name: "Git / GitHub", level: 95 },
-      { name: "CI/CD (GitHub Actions)", level: 90 },
       { name: "System Design", level: 70 },
     ],
   },
