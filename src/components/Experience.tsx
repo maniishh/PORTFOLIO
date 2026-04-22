@@ -27,7 +27,7 @@ export default function Experience() {
             Professional Journey
           </h2>
           <p className="text-slate-400 max-w-2xl mx-auto">
-            A track record of building impactful products across startups and enterprise environments.
+            A track record of building projects,coding and Data Structure.
           </p>
         </motion.div>
 
