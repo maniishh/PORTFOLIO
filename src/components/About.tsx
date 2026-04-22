@@ -61,7 +61,7 @@ export default function About() {
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
               {[
                 { icon: MapPin, label: "Location", value: personalInfo.location },
-                { icon: Calendar, label: "Experience", value: "4+ Years" },
+                { icon: Calendar, label: "Experience", value: "3+ projects" },
                 { icon: Award, label: "Status", value: "" },
               ].map((item, i) => (
                 <div
